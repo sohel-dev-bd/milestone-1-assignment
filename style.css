@@ -10,6 +10,11 @@ body{
     margin: 0px;
     padding: 0px;
 }
+
+/* common class */
+.container{
+    margin: 16px 80px;
+}
 /* nav styling */
 nav{
     display: flex;
@@ -19,12 +24,17 @@ nav{
 nav img{
     margin: 16px 80px;
 }
-nav button{
+
+.btn{
     margin: 24px 80px;
     background-color: #469165;
     border-radius: 5px;
     padding: 5px 20px;
-
+    font-size: 14px;
+    font-weight: 600;
+    color: #eaecee;
+    cursor: pointer;
+    border: none;
 }
 .link-parents{
     display: flex;
@@ -86,7 +96,6 @@ nav button{
 
 /* Notes Section Styling */
 .notes-section-parent{
-    margin: 16px 80px;
     text-align: center;
 }
 .notes-section-parent h1{
@@ -127,7 +136,78 @@ nav button{
     background-color: #F95555;
     padding: 10px;
     border-radius: 100%;
-
+}
+/* brain Section Start */
+.brain-section-parents{
+    gap: 50px;
+}
+.brain-child{
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 60px;
+    margin: 50px;
+}
+.brain-img img{
+    width: 400px;
+    height: 400px;
 }
 
+.brain-title h2{
+    font-size: 15px;
+    line-height: 20px;
+    color: #469165;
+    font-weight: 400;
+    margin: 50px auto 0px;
+}
+.brain-title h3{
+    font-size: 45px;
+    color: #001931;
+    font-weight: bold;
+}
+.brain-title p{
+    font-size: 16px;
+    color: #738390;
+    line-height: 20px;
+    font-weight: 400;
+    margin: 15px auto 35px;
+}
+
+.brain-title h4{
+    margin: 15px;
+    font-size: 16px;
+    line-height: 20px;
+    color: #001931;
+    font-weight: 400;
+}
+
+
+/* Ready Section Styling */
+.ready-child{
+    margin: 100px auto 100px;
+}
+.ready-title{
+    text-align: center;
+    background: #f7f6f2;
+    padding: 30px;
+    border-radius: 12px;
+}
+.ready-title h2{
+    font-size: 35px;
+    font-weight: bold;
+    color: #001931;
+    margin: 40px auto 16px;
+}
+.ready-title p{
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+    font-weight: 400;
+}
+.ready-title h3{
+    font-family: 16px;
+    line-height: 20px;
+    color: #627382;
+    font-weight: 400;
+    margin: 16px auto 40px;
+}
 
