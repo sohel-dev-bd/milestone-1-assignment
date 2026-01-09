@@ -30,9 +30,10 @@ nav a {
     font-weight: 500;
     transition: 0.7s;
 }
-nav a:hover{
+
+nav a:hover {
     background-color: #2c2a4d;
-    padding: 12px ;
+    padding: 12px;
     border-radius: 12px 2px 12px 2px;
     color: #eaecee;
 }
@@ -108,6 +109,20 @@ span {
 
 .hero-btn:hover {
     background-color: #0f172a;
+}
+
+.hero-btn-one {
+    background-color: white;
+    color: #30ac66;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 15px;
+    transition: 0.7s;
+}
+
+.hero-btn-one:hover {
+    background-color: rgb(29, 14, 89);
+    color: #eaecee;
 }
 
 .hero-btn-two {
@@ -289,7 +304,8 @@ footer p {
     color: #FFFFFF;
     margin: 0px auto 16px;
 }
-footer hr{
-     margin: 16px 80px;
-     background-color: #2e4256;
+
+footer hr {
+    margin: 16px 80px;
+    background-color: #2e4256;
 }
